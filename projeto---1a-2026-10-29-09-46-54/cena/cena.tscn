@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://b37dndw6dl0dc"]
+
+[ext_resource type="PackedScene" uid="uid://dusfh6ulapucs" path="res://cena/player.tscn" id="1_7d7wa"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ebum8"]
+size = Vector2(642, 20)
+
+[node name="CENA" type="Node2D" unique_id=531428709]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=1068737558]
+position = Vector2(13, 290)
+metadata/_edit_group_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=2115926485]
+position = Vector2(311, 0)
+shape = SubResource("RectangleShape2D_ebum8")
+
+[node name="Player" parent="." unique_id=1698257159 instance=ExtResource("1_7d7wa")]
