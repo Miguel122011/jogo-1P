@@ -6,6 +6,14 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ebum8"]
 size = Vector2(20, 21)
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_cf8qa"]
+atlas = ExtResource("2_cf8qa")
+region = Rect2(160, 128, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gx16w"]
+atlas = ExtResource("2_cf8qa")
+region = Rect2(160, 160, 32, 32)
+
 [sub_resource type="AtlasTexture" id="AtlasTexture_hd4p2"]
 atlas = ExtResource("2_cf8qa")
 region = Rect2(0, 0, 32, 35)
@@ -29,10 +37,6 @@ region = Rect2(128, 0, 32, 35)
 [sub_resource type="AtlasTexture" id="AtlasTexture_if4wl"]
 atlas = ExtResource("2_cf8qa")
 region = Rect2(160, 0, 32, 35)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_gx16w"]
-atlas = ExtResource("2_cf8qa")
-region = Rect2(0, 70, 32, 35)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_b2wtn"]
 atlas = ExtResource("2_cf8qa")
@@ -70,6 +74,17 @@ region = Rect2(224, 35, 32, 35)
 animations = [{
 "frames": [{
 "duration": 1.0,
+"texture": SubResource("AtlasTexture_cf8qa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gx16w")
+}],
+"loop": 0,
+"name": &"jump",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
 "texture": SubResource("AtlasTexture_hd4p2")
 }, {
 "duration": 1.0,
@@ -89,14 +104,6 @@ animations = [{
 }],
 "loop": 1,
 "name": &"parado",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_gx16w")
-}],
-"loop": 1,
-"name": &"pulo",
 "speed": 5.0
 }, {
 "frames": [{
@@ -147,8 +154,8 @@ animation = &"parado"
 autoplay = "parado"
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1331793260]
+zoom = Vector2(1.5, 1.5)
 limit_left = 0
-limit_top = -10000005
-limit_right = 9999997
-limit_bottom = 9999997
+limit_top = -10000014
+limit_right = 10000012
 position_smoothing_enabled = true
