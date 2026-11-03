@@ -1,0 +1,11 @@
+78098b89c88a74ebe8c20117b8754620
+::res://::1793708152
+character_body_2d.gd::GDScript::7087254700215130465::1793707877::0::1::::<>CharacterBody2D<><>0<>0<><>::
+icon.svg::CompressedTexture2D::2776201140797377873::1793707877::1793708153::1::::<><><>0<>0<>89a0a1378b2a207256797176c5295fdc<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+::res://cena/::1793707877
+cena.tscn::PackedScene::4417973952955699764::1793707877::0::1::::<><><>0<>0<><>::uid://dusfh6ulapucs::::res://cena/player.tscn
+character_body_2d.tscn::PackedScene::6450064190162137702::1793707877::0::1::::<><><>0<>0<><>::uid://c78ebxfwbymof::::res://character_body_2d.gd<>uid://de8bc7vfb1ka1::::res://imagem/sprite sheet 9x12 (free).png
+player.tscn::PackedScene::8600515468554538622::1793707877::0::1::::<><><>0<>0<><>::uid://c78ebxfwbymof::::res://character_body_2d.gd<>uid://dnhfkb5o4ukc3::::res://imagem/SPRITE_SHEET.png
+::res://imagem/::1793707877
+sprite sheet 9x12 (free).png::CompressedTexture2D::7508207893513625858::1793707877::1793708154::1::::<><><>0<>0<>30a3d3ac9841250fbf48167043c89daa<>res://.godot/imported/sprite sheet 9x12 (free).png-68de86c09a5ce4fd8e61f2407fa5223a.ctex::
+SPRITE_SHEET.png::CompressedTexture2D::8086489205098153912::1793707877::1793708153::1::::<><><>0<>0<>e099e93bf51356433fb135622a9af1e2<>res://.godot/imported/SPRITE_SHEET.png-650fd8a6d26e2200e2bb211f9cc68ae6.ctex::
